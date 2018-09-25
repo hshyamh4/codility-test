@@ -1,6 +1,6 @@
 package com.codility.test.animal.impl;
 
-import com.codility.test.exception.UnSupportedBehaviorException;
+import com.codility.test.exception.UnSupportedBehaviourException;
 
 public abstract class Chicken extends Bird {
 
@@ -9,7 +9,7 @@ public abstract class Chicken extends Bird {
 	}
 
 	public String fly() {
-		throw new UnSupportedBehaviorException("Chicken can not fly,because its wings are clipped");
+		throw new UnSupportedBehaviourException("Chicken can not fly,because its wings are clipped");
 	}
 
 }
