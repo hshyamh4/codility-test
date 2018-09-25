@@ -7,15 +7,15 @@ import com.codility.test.animal.WalkableAnimal;
 public abstract class Bird implements WalkableAnimal, FlyableAnimal, SingableAnimal {
 
 	public String sing() {
-		return "sing";
+		return "Bird,sing";
 	}
 
 	public String walk() {
-		return "walk";
+		return "Bird,walk";
 	}
 
 	public String fly() {
-		return "fly";
+		return "Bird,fly";
 	}
 
 }

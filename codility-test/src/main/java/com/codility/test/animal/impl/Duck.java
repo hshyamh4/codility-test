@@ -10,7 +10,7 @@ public class Duck extends Bird implements SwimableAnimal {
 	}
 
 	public String swim() {
-		return "swim";
+		return "Duck,swim";
 	}
 
 }

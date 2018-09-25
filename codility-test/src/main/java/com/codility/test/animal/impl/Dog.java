@@ -5,7 +5,7 @@ import com.codility.test.animal.WalkableAnimal;
 public class Dog implements WalkableAnimal {
 
 	public String walk() {
-		return "walk";
+		return "Dog,walk";
 	}
 
 }

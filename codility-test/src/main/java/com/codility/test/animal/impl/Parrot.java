@@ -12,22 +12,21 @@ public class Parrot extends Bird {
 
 	@Override
 	public String sing() {
-		if (nearOrLivesWith == null) {
-			return "Parrot,sing";
-		} else if (nearOrLivesWith instanceof Dog) {
-			return "Woof, woof";
-		} else if (nearOrLivesWith instanceof Cat) {
-			return "Meow";
-		} else if (nearOrLivesWith instanceof Rooster) {
-			return "Cock-a-doodle-doo";
+		if (nearOrLivesWith != null) {
+			if (nearOrLivesWith instanceof Dog) {
+				return "Woof, woof";
+			} else if (nearOrLivesWith instanceof Cat) {
+				return "Meow";
+			} else if (nearOrLivesWith instanceof Rooster) {
+				return "Cock-a-doodle-doo";
+			}
 		}
 
-		return "";
+		return "Parrot,sing";
 	}
 
 	public void setLivesWith(Animal animal) {
 		this.nearOrLivesWith = animal;
-
 	}
 
 }
